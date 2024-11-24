@@ -1,0 +1,90 @@
+# for A+G sensors
+/sys/devices/platform/soc/f9015000.ssi/spi_master/spi3/spi3.0/iio:device* buffer/enable 0660 system system
+/sys/devices/platform/soc/f9015000.ssi/spi_master/spi3/spi3.0/iio:device* buffer/length 0660 system system
+/sys/devices/platform/soc/f9015000.ssi/spi_master/spi3/spi3.0/iio:device* scan_elements/in_accel_x_en 0660 system system
+/sys/devices/platform/soc/f9015000.ssi/spi_master/spi3/spi3.0/iio:device* scan_elements/in_accel_y_en 0660 system system
+/sys/devices/platform/soc/f9015000.ssi/spi_master/spi3/spi3.0/iio:device* scan_elements/in_accel_z_en 0660 system system
+/sys/devices/platform/soc/f9015000.ssi/spi_master/spi3/spi3.0/iio:device* scan_elements/in_anglvel_x_en 0660 system system
+/sys/devices/platform/soc/f9015000.ssi/spi_master/spi3/spi3.0/iio:device* scan_elements/in_anglvel_y_en 0660 system system
+/sys/devices/platform/soc/f9015000.ssi/spi_master/spi3/spi3.0/iio:device* scan_elements/in_anglvel_z_en 0660 system system
+/sys/devices/platform/soc/f9015000.ssi/spi_master/spi3/spi3.0/iio:device* scan_elements/in_timestamp_en 0660 system system
+/sys/devices/platform/soc/f9015000.ssi/spi_master/spi3/spi3.0/iio:device* in_accel_scale 0440 system system
+/sys/devices/platform/soc/f9015000.ssi/spi_master/spi3/spi3.0/iio:device* in_accel_sampling_frequency 0660 system system
+/sys/devices/platform/soc/f9015000.ssi/spi_master/spi3/spi3.0/iio:device* in_anglvel_scale 0440 system system
+/sys/devices/platform/soc/f9015000.ssi/spi_master/spi3/spi3.0/iio:device* in_anglvel_sampling_frequency 0660 system system
+/sys/devices/platform/soc/f9015000.ssi/spi_master/spi3/spi3.0/iio:device* max_delay 0440 system system
+/sys/devices/platform/soc/f9015000.ssi/spi_master/spi3/spi3.0/iio:device* min_delay 0440 system system
+/sys/devices/platform/soc/f9015000.ssi/spi_master/spi3/spi3.0/iio:device* max_range 0440 system system
+/sys/devices/platform/soc/f9015000.ssi/spi_master/spi3/spi3.0/iio:device* resolution 0440 system system
+/sys/devices/platform/soc/f9015000.ssi/spi_master/spi3/spi3.0/iio:device* sensor_power 0440 system system
+
+# for M sensors
+# for YAS537
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-002e/iio:device* buffer/enable 0660 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-002e/iio:device* buffer/length 0660 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-002e/iio:device* scan_elements/in_magn_x_en 0660 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-002e/iio:device* scan_elements/in_magn_y_en 0660 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-002e/iio:device* scan_elements/in_magn_z_en 0660 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-002e/iio:device* scan_elements/in_timestamp_en 0660 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-002e/iio:device* in_magn_scale 0440 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-002e/iio:device* in_magn_sampling_frequency 0660 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-002e/iio:device* max_delay 0440 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-002e/iio:device* min_delay 0440 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-002e/iio:device* max_range 0440 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-002e/iio:device* resolution 0440 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-002e/iio:device* sensor_power 0440 system system
+# for AK09911
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-000d/iio:device* buffer/enable 0660 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-000d/iio:device* buffer/length 0660 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-000d/iio:device* scan_elements/in_magn_x_en 0660 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-000d/iio:device* scan_elements/in_magn_y_en 0660 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-000d/iio:device* scan_elements/in_magn_z_en 0660 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-000d/iio:device* scan_elements/in_timestamp_en 0660 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-000d/iio:device* in_magn_scale 0440 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-000d/iio:device* in_magn_sampling_frequency 0660 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-000d/iio:device* max_delay 0440 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-000d/iio:device* min_delay 0440 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-000d/iio:device* max_range 0440 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-000d/iio:device* resolution 0440 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-000d/iio:device* sensor_power 0440 system system
+
+# for LTR559 P+L sensors
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-0023/iio:device* buffer/enable 0660 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-0023/iio:device* buffer/length 0660 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-0023/iio:device* scan_elements/in_proximity_en 0660 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-0023/iio:device* scan_elements/in_custom_en 0660 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-0023/iio:device* scan_elements/in_illuminance_en 0660 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-0023/iio:device* scan_elements/in_timestamp_en 0660 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-0023/iio:device* continus_mode 0660 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-0023/iio:device* in_proximity_offset 0660 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-0023/iio:device* in_illuminance_scale 0440 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-0023/iio:device* max_delay 0440 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-0023/iio:device* min_delay 0440 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-0023/iio:device* max_range 0440 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-0023/iio:device* resolution 0440 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-0023/iio:device* sensor_power 0440 system system
+
+# for LTR579 P+L sensors
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-0053/iio:device* buffer/enable 0660 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-0053/iio:device* buffer/length 0660 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-0053/iio:device* scan_elements/in_proximity_en 0660 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-0053/iio:device* scan_elements/in_custom_en 0660 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-0053/iio:device* scan_elements/in_illuminance_en 0660 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-0053/iio:device* scan_elements/in_timestamp_en 0660 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-0053/iio:device* continus_mode 0660 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-0053/iio:device* in_proximity_offset 0660 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-0053/iio:device* in_illuminance_scale 0440 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-0053/iio:device* max_delay 0440 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-0053/iio:device* min_delay 0440 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-0053/iio:device* max_range 0440 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-0053/iio:device* resolution 0440 system system
+/sys/devices/platform/soc/f9006000.i2c/i2c-7/7-0053/iio:device* sensor_power 0440 system system
+
+#leds
+/sys/devices/platform/soc/fa896000.i2c/i2c-1/1-0033/leds/green delay_on      0644  system   system
+/sys/devices/platform/soc/fa896000.i2c/i2c-1/1-0033/leds/green delay_off     0644  system   system
+/sys/devices/platform/soc/fa896000.i2c/i2c-1/1-0033/leds/red   delay_on      0644  system   system
+/sys/devices/platform/soc/fa896000.i2c/i2c-1/1-0033/leds/red   delay_off     0644  system   system
+/sys/devices/platform/soc/fa896000.i2c/i2c-1/1-0033/leds/blue  delay_on      0644  system   system
+/sys/devices/platform/soc/fa896000.i2c/i2c-1/1-0033/leds/blue  delay_off     0644  system   system
+

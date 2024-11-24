@@ -1,0 +1,24 @@
+/* media device, v4l2 sub device, video device node for camera */
+/dev/v4l-subdev*          0660   system     camera
+/dev/video*               0660   system     camera
+/dev/media0               0660   system     camera
+/dev/tee0                 0660   system     drmrpc
+/dev/teepriv0             0660   system     drmrpc
+
+/dev/mali0                       0666   system     system
+/dev/adf0                        0660   system     system
+/dev/adf-interface0.0            0660   system     system
+/dev/adf-interface0.1            0660   system     system
+/dev/adf-overlay-engine0.0       0660   system     system
+/dev/adf-overlay-engine0.1       0660   system     system
+/dev/adf-overlay-engine0.2       0660   system     system
+/dev/adf-overlay-engine0.3       0660   system     system
+/dev/mv500                       0660   system     camera
+/dev/ion                         0666   system     system
+
+#for sensors polling
+/dev/iio:device* 0660 system system
+
+# consumerir
+/dev/lirc0                0660   system     system
+
