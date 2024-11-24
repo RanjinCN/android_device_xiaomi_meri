@@ -152,7 +152,6 @@ jobs:
         source build/envsetup.sh
         export ALLOW_MISSING_DEPENDENCIES=true
         lunch ${{ github.event.inputs.MAKEFILE_NAME }}-eng && make clean && make ${{ github.event.inputs.BUILD_TARGET }}image -j$(nproc --all)
-        zip -0 workspace/out/target/product workspace/out/target/${{ github.event.inputs.DEVICE_NAME }}.zip
       working-directory: ${{ steps.pwd.outputs.workspace-folder }}
 
     - name: Upload to Release
@@ -163,8 +162,7 @@ jobs:
           workspace/out/target/product/${{ github.event.inputs.DEVICE_NAME }}/*.zip
           workspace/out/target/product/${{ github.event.inputs.DEVICE_NAME }}/*vendor*.img
           workspace/out/target/product/${{ github.event.inputs.DEVICE_NAME }}/*.img
-          workspace/out/target/product/${{ github.event.inputs.DEVICE_NAME }}/*.dat
-          workspace/out/target/${{ github.event.inputs.DEVICE_NAME }}.zip
+          workspace/out/target/product/${{ github.event.inputs.DEVICE_NAME }}/*
         name: ${{ github.event.inputs.DEVICE_NAME }}-${{ github.run_id }}
         tag_name: ${{ github.run_id }}
         body: |
